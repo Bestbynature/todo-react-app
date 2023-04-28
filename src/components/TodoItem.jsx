@@ -2,6 +2,7 @@ import styles from '@/styles/TodoItem.module.css';
 import { useState } from 'react';
 import { RiDeleteBin6Fill, RiEdit2Fill } from "react-icons/ri"
 import { useAuthContext } from '@/context/AuthContext';
+import { PropTypes } from 'prop-types'
 
 const TodoItem = ({ itemProp, setTodos }) => {
 
@@ -107,4 +108,9 @@ const TodoItem = ({ itemProp, setTodos }) => {
      );
 }
  
+TodoItem.propTypes = {
+    itemProp: PropTypes.object.isRequired,
+    setTodos: PropTypes.func.isRequired
+}
+
 export default TodoItem;

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import { FaPlusCircle } from "react-icons/fa";
+import { PropTypes } from 'prop-types'
 
 const InputTodo = ({ setTodos }) => {
     const [title, setTitle] = useState('')
@@ -44,5 +45,10 @@ const InputTodo = ({ setTodos }) => {
         </>
      );
 }
- 
+
+InputTodo.propTypes = {
+    setTodos: PropTypes.func.isRequired
+  };
+
+  
 export default InputTodo;

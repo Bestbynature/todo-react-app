@@ -1,4 +1,5 @@
 import TodoItem from '@/components/TodoItem'
+import { PropTypes } from 'prop-types';
 
 const TodosList = ({ todosProps, setTodos }) => {
     return ( 
@@ -10,4 +11,9 @@ const TodosList = ({ todosProps, setTodos }) => {
      );
 }
  
+TodosList.propTypes = {
+    todosProps: PropTypes.array.isRequired,
+    setTodos: PropTypes.func.isRequired
+}
+
 export default TodosList;
