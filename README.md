@@ -37,7 +37,7 @@
 
 # 📖 [todo-react-app] <a name="about-project"></a>
 
-**[todo-react-app](https://bestbynature.github.io/todo-react-app/)** is a web application that displays movies collection with thier details and allows users to like or comment on a particular movie. Upon clicking a particular movie, a pop-up is displayed that gives more information. The Project is achieved by using APIs. The project also implemented features that dynamically modify the DOM and add basic events and listeners.
+**[todo-react-app]** is an application that is built with react and bundled with Vite. It essentially provides a login page, which once authenticated, gives access to the edit button. The list of todos are display on the Home page. Other pages are also accessible with routers.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -49,6 +49,7 @@
     <li>HTML</li>
     <li>CSS</li>
     <li>JAVASCRIPT</li>
+    <li>React</li>
   </ul>
 </details>
 
@@ -57,10 +58,10 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Linter checks]**
-- **[Webpack]**
-- **[API]**
+- **[Vite]**
+- **[JavaScript APIs]**
 - **[CSS grid and flexbox]**
-- **[Jest testing library]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,7 +69,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-### You can find the live version of this web application in this link =>**[todo-react-app](https://bestbynature.github.io/todo-react-app/)**
+### **Please check back later**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,22 +111,26 @@ Clone this repository to your desired folder:
 
 Install this project with:
 
-```sh
-- In the first commit of your feature branch create a .github/workflows folder and add a copy of [.github/workflows/linters.yml](https://github.com/microverseinc/linters-config/blob/master/html-css-js/.github/workflows/linters.yml) to that folder.
+
+- In the first commit of your feature branch create a .github/workflows folder and add a copy of [.github/workflows/linters.yml](https://github.com/microverseinc/linters-config/blob/master/react-redux/.github/workflows/linters.yml) to that folder.
 - create a .gitignore file and add 'node_modules' to it
-- run 'npm init -y'
-- run 'npm install --save-dev hint@7.x'
-- Copy [hintrc](https://github.com/microverseinc/linters-config/blob/master/html-css-js/.hintrc) to the root directory of your project.
-- run 'npx hint .'
-- Fix validation errors.
-- run 'npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x'
-- Copy [stylelintrc.json](https://github.com/microverseinc/linters-config/blob/master/html-css-js/.stylelintrc.json) to the root directory of your project.
-- Run 'npx stylelint "\*_/_.{css,scss}"'
-- fix linter errors
-- run "npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x"
-- Copy [eslintrc.json](https://github.com/microverseinc/linters-config/tree/master/html-css-js)
-- Run npx eslint . on the root of your directory of your project
-- Fix linter error.
+- run 'npm init -y
+
+- Run
+```sh
+npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-plugin-react-hooks@4.x @babel/eslint-parser@7.x @babel/core@7.x  @babel/plugin-syntax-jsx@7.x  @babel/preset-react@7.x @babel/preset-react@7.x
+```
+- Copy [.eslintrc.json](https://github.com/microverseinc/linters-config/blob/master/react-redux/.eslintrc.json) and [.babelrc](https://github.com/microverseinc/linters-config/blob/master/react-redux/.babelrc) to the root directory of your project.
+- Run `npx eslint "**/*.{js,jsx}"` on the root of your directory of your project.
+- Fix linter errors.
+- Run
+```sh
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+```
+- Copy [.stylelintrc.json](https://github.com/microverseinc/linters-config/blob/master/react-redux/.stylelintrc.json) to the root directory of your project.
+- Run `npx stylelint "**/*.{css,scss}"` on the root of your directory of your project.
+- Fix linter errors.
+
 
 ### To Install Jest
 - run npm install --save-dev jest
@@ -140,7 +145,6 @@ Install this project with:
     }
 }` inside the file
 
-```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ### Usage <a name="usage"></a>
@@ -149,8 +153,7 @@ To run the project, execute the following command:
 
 ```sh
   use git bash to open in Vs code
-  use npm start to run web dev server
-  npm run build to get the production version
+  use `npm run dev` to run web dev server
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -160,9 +163,8 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 ```sh
-Run "npx hint ."
-Run "npx stylelint "**/*.{css,scss} --fix " to fix linters
-Run "npx eslint . --fix to fix linters"
+Run `npx stylelint "**/*.{css,scss}" --fix` to fix linters
+Run `npx eslint "**/*.{js,jsx}" --fix` to fix linters"
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -196,7 +198,7 @@ You can deploy this project using:
 
 - [ ] **[contact form page for customers]**
 - [ ] **[A feature for alternative list of movies]**
-- [ ] **[A feature for voting the best movie on the list]**
+- [ ] **[A feature for voting the best item on the list]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
