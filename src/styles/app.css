@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: "Segoe UI", sans-serif;
+    line-height: 1.4;
+    color: #000;
+    background: #fff;
+    height: 100vh;
+    font-weight: 400;
+  }
+
+  .wrapper {
+    width: 100%;
+    padding: 8rem 20px 3rem;
+  }
+
+  .todos {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
+  .form-container {
+    display: flex;
+    border-radius: calc(0.1 * 100px);
+    box-shadow: 0px 4px 7px 0px rgba(70, 70, 70, 0.38);
+    justify-content: space-around;
+    background: #fff;
+    font-size: 1rem;
+  }
+
+  .input-text {
+    width: 85%;
+    padding-right: 5px;
+    padding-left: 10px;
+    border-radius: calc(0.5 * 100px);
+    font-size: 1rem;
+  }
+
+  .input-text::placeholder {
+    color: #000;
+  }
+
+  .input-submit {
+    background: transparent;
+    color: #5b5b5b;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 10px;
+  }
+
+  .input-submit svg {
+    color: #5e5e5e;
+    font-size: 20px;
+    margin-top: 2px;
+  }
+
+  .input-text,
+.input-submit {
+  height: 45px;
+  outline: none;
+  border: none;
+}
+
+.submit-warning {
+  font-size: 13px;
+  color: red;
+  margin-top: 5px;
+  display: block;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+/* Active route */
+.active {
+  color: #005bb3;
+}
+
+/*==========================
+About route 
+========================*/
+.about {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.about_list {
+  list-style: none;
+}
+.about_list a {
+  padding: 20px 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+}
+.about_list a:hover {
+  color: #005bb3;
+}
+.main_content {
+  max-width: 650px;
+}
+.main_content h2 {
+  margin-bottom: 15px;
+  line-height: 30px;
+  font-size: 26px;
+}
+.main_content p {
+  line-height: 25px;
+}
+/* Media Queries */
+@media screen and (min-width: 480px) {
+  div.wrapper h1 {
+    font-size: 6rem;
+  }
+  .about {
+    display: grid;
+    grid-template-columns: 200px minmax(0, 1fr);
+  }
+}
+
+  @media only screen and (max-width: 400px){
+    .todos {
+      max-width: 95%
+    }
+  } 
