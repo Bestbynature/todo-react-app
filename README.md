@@ -109,41 +109,10 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Install this project with:
+Install this project by running `npm install`
 
 
-- In the first commit of your feature branch create a .github/workflows folder and add a copy of [.github/workflows/linters.yml](https://github.com/microverseinc/linters-config/blob/master/react-redux/.github/workflows/linters.yml) to that folder.
-- create a .gitignore file and add 'node_modules' to it
-- run 'npm init -y
 
-- Run
-```sh
-npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-plugin-react-hooks@4.x @babel/eslint-parser@7.x @babel/core@7.x  @babel/plugin-syntax-jsx@7.x  @babel/preset-react@7.x @babel/preset-react@7.x
-```
-- Copy [.eslintrc.json](https://github.com/microverseinc/linters-config/blob/master/react-redux/.eslintrc.json) and [.babelrc](https://github.com/microverseinc/linters-config/blob/master/react-redux/.babelrc) to the root directory of your project.
-- Run `npx eslint "**/*.{js,jsx}"` on the root of your directory of your project.
-- Fix linter errors.
-- Run
-```sh
-npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-```
-- Copy [.stylelintrc.json](https://github.com/microverseinc/linters-config/blob/master/react-redux/.stylelintrc.json) to the root directory of your project.
-- Run `npx stylelint "**/*.{css,scss}"` on the root of your directory of your project.
-- Fix linter errors.
-
-
-### To Install Jest
-- run npm install --save-dev jest
-- add " "test": "jest", "watch": "jest --watch *.js" to the scripts section of package.json"
-- run npm install --save-dev @babel/plugin-transform-modules-commonjs
-- create a file at the root called .babelrc
-- copy `{
-    "env": {
-        "test": {
-            "plugins": ["@babel/plugin-transform-modules-commonjs"]
-        }
-    }
-}` inside the file
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

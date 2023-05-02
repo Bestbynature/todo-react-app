@@ -23,21 +23,6 @@ const Navbar = () => {
     return ( 
     <>
         <nav className="navbar">
-            {/* <ul>
-                {links.map((link)=>{
-                    return (
-                        <li key={link.text}>
-                            <NavLink 
-                            to={link.path}
-                            // className={({isActive})=>
-                            // isActive ? 'active__class' : undefined
-                            // }
-                            >{link.text}
-                            </NavLink>
-                        </li>
-                    )
-                })}
-            </ul> */}
             <ul>
             {links.map((link) => {
                 return (
