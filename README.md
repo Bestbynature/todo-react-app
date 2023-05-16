@@ -35,9 +35,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [todo-react-app] <a name="about-project"></a>
+# 📖 [todo-react-app](https://todo-appliccation-made-with-react-and.onrender.com/) <a name="about-project"></a>
 
-**[todo-react-app]** is an application that is built with react and bundled with Vite. It essentially provides a login page, which once authenticated, gives access to the edit button. The list of todos are display on the Home page. Other pages are also accessible with routers.
+**[todo-react-app](https://todo-appliccation-made-with-react-and.onrender.com/)** is an application that is built with react and bundled with Vite. It essentially provides a login page, which once authenticated, gives access to the edit button. The list of todos are display on the Home page. Other pages are also accessible with routers.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -69,7 +69,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-### **Please check back later**
+### [todo-react-app](https://todo-appliccation-made-with-react-and.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
